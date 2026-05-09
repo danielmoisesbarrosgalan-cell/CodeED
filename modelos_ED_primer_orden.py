@@ -65,7 +65,7 @@ def input_int(mensaje: str, default: int = None) -> int:
                 return default
             return int(texto)
         except ValueError:
-            print("  ⚠  Ingrese un entero válido.")
+            print("  Ingrese un entero válido.")
 
 # ─────────────────────────────────────────────────────────
 # MÓDULO 1: LEY DE ENFRIAMIENTO DE NEWTON
