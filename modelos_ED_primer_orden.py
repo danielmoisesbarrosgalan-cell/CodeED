@@ -143,7 +143,7 @@ def enfriamiento_newton() -> None:
     ax.grid(True)
     plt.tight_layout()
     plt.savefig("grafica_enfriamiento_newton.png", dpi=150, bbox_inches="tight")
-    print("  📊  Gráfica guardada: grafica_enfriamiento_newton.png")
+    print("   Gráfica guardada: grafica_enfriamiento_newton.png")
     plt.show()
 
 
@@ -227,7 +227,7 @@ def crecimiento_decaimiento() -> None:
     ax.grid(True)
     plt.tight_layout()
     plt.savefig("grafica_crecimiento_decaimiento.png", dpi=150, bbox_inches="tight")
-    print("  📊  Gráfica guardada: grafica_crecimiento_decaimiento.png")
+    print("   Gráfica guardada: grafica_crecimiento_decaimiento.png")
     plt.show()
 
 
@@ -333,7 +333,7 @@ def mezclas_dilucion() -> None:
                  fontsize=13, y=1.02)
     plt.tight_layout()
     plt.savefig("grafica_mezclas_dilucion.png", dpi=150, bbox_inches="tight")
-    print("  📊  Gráfica guardada: grafica_mezclas_dilucion.png")
+    print(" Gráfica guardada: grafica_mezclas_dilucion.png")
     plt.show()
 
 
@@ -364,7 +364,7 @@ def menu() -> None:
         opcion = input("  Seleccione una opción: ").strip()
 
         if opcion == "0":
-            print("\n  Hasta luego. ¡Éxitos en el taller! 🎓\n")
+            print("\n  Hasta luego. ¡Éxitos en el taller! \n")
             sys.exit(0)
         elif opcion == "4":
             enfriamiento_newton()
